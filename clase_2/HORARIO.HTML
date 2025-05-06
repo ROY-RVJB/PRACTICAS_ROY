@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario de Clases</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .horario-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #fff;
+        }
+        h1 {
+            margin: 0;
+            padding: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 1px solid #000;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #000080;
+            color: white;
+            font-weight: bold;
+        }
+        .hora {
+            background-color: #000080;
+            color: white;
+            font-weight: bold;
+        }
+        .matematica {
+            background-color: #90EE90;
+        }
+        .quimica {
+            background-color: #98FB98;
+        }
+        .algoritmos {
+            background-color: #FFEFD5;
+        }
+        .lenguaje {
+            background-color: #87CEEB;
+        }
+        .civica {
+            background-color: #FFA500;
+        }
+        .poo {
+            background-color: #7CFC00;
+        }
+        .base-datos {
+            background-color: #EE82EE;
+        }
+        .introduccion {
+            background-color: #FF7F50;
+        }
+        .filosofia {
+            background-color: #6495ED;
+        }
+        .libre {
+            background-color: #F5F5F5;
+        }
+        .almuerzo {
+            background-color: #FFFFFF;
+            font-weight: bold;
+        }
+        .desarrollo-web {
+            background-color: #F5F5F5;
+        }
+        .calidad {
+            background-color: #F5F5F5;
+        }
+        .dssl {
+            background-color: #F5F5F5;
+        }
+    </style>
+</head>
+<body>
+    <div class="horario-container">
+        <h1>Horario de Clases</h1>
+        <table>
+            <tr>
+                <th>Hora</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+            <tr>
+                <td class="hora">07:00 - 07:59</td>
+                <td class="matematica" rowspan="2">Matemática</td>
+                <td class="quimica" rowspan="2">Química</td>
+                <td class="matematica" rowspan="2">Matemática</td>
+                <td class="lenguaje" rowspan="2">Lenguaje y Comunicación</td>
+                <td class="civica" rowspan="2">Cívica</td>
+            </tr>
+            <tr>
+                <td class="hora">08:00 - 08:59</td>
+            </tr>
+            <tr>
+                <td class="hora">09:00 - 09:59</td>
+                <td class="algoritmos" rowspan="2">Algoritmos</td>
+                <td class="libre" rowspan="2">Libre</td>
+                <td class="poo" rowspan="2">POO</td>
+                <td class="algoritmos" rowspan="2">Algoritmos</td>
+                <td class="base-datos" rowspan="2">Base de Datos I</td>
+            </tr>
+            <tr>
+                <td class="hora">10:00 - 10:59</td>
+            </tr>
+            <tr>
+                <td class="hora">11:00 - 11:59</td>
+                <td class="base-datos" rowspan="2">Base de Datos I</td>
+                <td class="introduccion" rowspan="2">Introducción a la Informática</td>
+                <td class="filosofia" rowspan="2">Filosofía</td>
+                <td class="libre" rowspan="2">Libre</td>
+                <td class="poo" rowspan="2">POO</td>
+            </tr>
+            <tr>
+                <td class="hora">12:00 - 12:59</td>
+            </tr>
+            <tr>
+                <td class="hora">13:00 - 13:59</td>
+                <td colspan="5" class="almuerzo">ALMUERZO</td>
+            </tr>
+            <tr>
+                <td class="hora">14:00 - 14:59</td>
+                <td class="desarrollo-web" rowspan="3">Desarrollo Web I</td>
+                <td class="libre" rowspan="3">Libre</td>
+              <td class="libre" rowspan="5">Libre</td>
+              <td class="libre">Libre</td>
+              <td class="libre" rowspan="7">Libre</td>
+            </tr>
+            <tr>
+                <td class="hora">15:00 - 15:59</td>
+                <td class="desarrollo-web" rowspan="2">Desarrollo Web I</td>
+               
+                
+            </tr>
+            <tr>
+                <td class="hora">16:00 - 16:59</td>
+                
+                
+            </tr>
+            <tr>
+                <td class="hora">17:00 - 17:59</td>
+                <td class="libre" rowspan="2">Libre</td>
+                <td class="calidad" rowspan="2">Calidad Aplicada a SI</td>
+                <td class="calidad" rowspan="2">Calidad Aplicada a SI</td>
+               
+               
+            </tr>
+            <tr>
+                <td class="hora">18:00 - 18:59</td>
+                
+                
+            </tr>
+            <tr>
+                <td class="hora">19:00 - 19:59</td>
+                <td class="dssl" rowspan="2">DSSL</td>
+                <td class="libre" rowspan="2">Libre</td>
+                <td class="dssl" rowspan="2">DSSL</td>
+                <td class="libre" rowspan="2">Libre</td>
+            
+            </tr>
+            <tr>
+                <td class="hora">20:00 - 20:59</td>
+                
+                
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
