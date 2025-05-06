@@ -11,7 +11,7 @@ Documentación de prácticas para el curso de Desarrollo Web en UNAMAD.
 |:------:|:-------:|
 | clase_1 | Formularios |
 | clase_2 | Horarios |
-[!INPORTANT]
+>[!IMPORTANT]
 ## 🛠️ Tecnologías
 `HTML5` → Actual  
 `CSS3/JS` → Próximamente
