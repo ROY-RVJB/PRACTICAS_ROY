@@ -11,6 +11,7 @@ Documentación de prácticas para el curso de Desarrollo Web en UNAMAD.
 |:------:|:-------:|
 | clase_1 | Formularios |
 | clase_2 | Horarios |
+| clase_3 | CSS practica |
 
 > [!IMPORTANT]
 > Este repositorio se actualiza semanalmente con nuevos ejercicios y proyectos.
