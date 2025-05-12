@@ -1,0 +1,23 @@
+h1 {
+    font-size: 3rem;
+    color: rgb(32, 2, 91);
+    text-align: center;
+    
+}
+
+    .conectate a {
+        margin-right: 15px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: all 0.3s ease;
+    }
+    
+    .conectate a[data-social="facebook"] { color: #1877F2; }
+    .conectate a[data-social="instagram"] { color: #C13584; }
+    .conectate a[data-social="twitter"] { color: #1DA1F2; }
+    .conectate a[data-social="snapchat"] { color: #FFFC00; }
+    
+    .conectate a:hover {
+        opacity: 0.8;
+        text-decoration: underline;
+    }
