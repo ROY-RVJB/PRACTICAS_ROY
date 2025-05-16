@@ -1,0 +1,175 @@
+*{
+
+box-sizing: border-box;
+padding: 0px;
+
+}
+.box {
+    display: flex;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    align-content: normal;
+}
+.box div {
+    width: 300px;
+   
+}
+.box div:nth-child(even){
+    background: rgb(226, 223, 43);
+   
+
+}
+.box div:nth-child(odd){
+    
+background: rgb(95, 220, 210);
+
+}
+    
+
+.flex-inicio{
+    font-size: 40px;
+    display:flex ;
+    justify-content: flex-start;
+    width: 100%;
+
+
+}
+.flex-inicio div {
+    font-size: 40px;
+   background-color: blue;
+
+
+}
+.flex-inicio div:first-child{
+    background: rgb(226, 223, 43);
+  
+
+}
+
+.flex-inicio div:last-child{
+
+background: rgb(95, 220, 210);
+
+}
+    
+.flex-final{
+    font-size: 40px;
+    display:flex ;
+    justify-content: flex-end;
+    width: 100%;
+
+
+}
+.flex-final div {
+    font-size: 40px;
+   background-color: blue;
+
+
+}
+.flex-final div:first-child{
+    background: rgb(226, 223, 43);
+  
+
+}
+
+.flex-final div:last-child{
+
+background: rgb(95, 220, 210);
+
+}
+
+.flex-center{
+    font-size: 40px;
+    display:flex ;
+    justify-content: center;
+    width: 100%;
+
+
+}
+.flex-center div {
+    font-size: 40px;
+   background-color: blue;
+
+
+}
+.flex-center div:first-child{
+    background: rgb(226, 223, 43);
+  
+
+}
+
+.flex-center     div:last-child{
+
+background: rgb(95, 220, 210);
+
+}
+    
+
+.flex-betweem{
+    font-size: 40px;
+    display:flex ;
+    justify-content: space-between;
+    width: 100%;
+
+
+}
+.flex-betweem div {
+    font-size: 40px;
+   background-color: blue;
+
+
+}
+.flex-betweem div:first-child{
+    background: rgb(226, 223, 43);
+  
+
+}
+
+.flex-betweem     div:last-child{
+
+background: rgb(95, 220, 210);
+
+}
+
+
+.flex-around{
+    font-size: 40px;
+    display:flex ;
+    justify-content: space-around;
+    width: 100%;
+
+
+}
+.flex-around div {
+    font-size: 40px;
+   background-color: blue;
+
+
+}
+.flex-around div:first-child{
+    background: rgb(226, 223, 43);
+  
+
+}
+
+.flex-around     div:last-child{
+
+background: rgb(95, 220, 210);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
