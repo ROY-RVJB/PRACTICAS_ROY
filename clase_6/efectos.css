@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.titulo {
+    animation-duration: 2s;
+    animation-name: tituloAnimacion;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+@keyframes tituloAnimacion {
+    from{
+        color: whitesmoke;
+        background: rgb(16, 7, 142);
+    }
+    to {
+        color: blue;
+        background: yellow;
+    }
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background: orange;
+    margin: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.translate:hover {
+    transform: translate(20px, 20px);
+}
+
+.translatex:hover {
+    transform: translateX(50px);
+}
+
+.translatey:hover {
+    transform: translateY(50px);
+}
+
+.scale:hover {
+    transform: scale(1.5);
+}
+
+.scalex:hover {
+    transform: scaleX(1.5);
+}
+
+.scaley:hover {
+    transform: scaleY(1.5);
+}
+
+.rotate:hover {
+    transform: rotate(45deg);
+}
+
+.rotatex:hover {
+    transform: rotateX(45deg);
+}
+
+.rotatey:hover {
+    transform: rotateY(45deg);
+}
+
+.skew:hover {
+    transform: skew(15deg, 15deg);
+}
+
+.skewx:hover {
+    transform: skewX(15deg);
+}
+
+.skewy:hover {
+    transform: skewY(15deg);
+}
+
+body {
+    padding: 20px;
+    text-align: center;
+}

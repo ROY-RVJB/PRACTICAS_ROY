@@ -1,0 +1,135 @@
+/* Estilos generales */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+/* Contenedor principal */
+.contenedor {
+    position: relative;
+    width: 400px;
+    height: 300px;
+  
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 102, 204, 0.2);
+    background-color: rgb(28, 172, 198);
+}
+
+/* Estilos del cohete */
+.cohete {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/007/023/646/non_2x/rocket-launching-in-space-cartoon-icon-illustration-science-technology-icon-concept-isolated-premium-vector.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: recorrerCuadrado 10s linear forwards;
+    transform-origin: center center;
+    filter: drop-shadow(0 0 5px rgba(0,0,0,0.3));
+}
+
+/* Animación del recorrido */
+@keyframes recorrerCuadrado {
+    /* Lado superior (derecha) */
+    0% {
+        top: -80px;
+        left: -80px;
+        transform: rotate(90deg);
+    }
+    24% {
+        top: -80px;
+        left: calc(100%);
+        transform: rotate(90deg);
+    }
+    /* Esquina superior derecha (rotar hacia abajo) */
+    25% {
+        transform: rotate(180deg);
+    }
+    26% {
+        transform: rotate(180deg);
+    }
+    /* Lado derecho (abajo) */
+    27% {
+        top: -80px;
+        left: calc(100%);
+        transform: rotate(180deg);
+    }
+    49% {
+        top: calc(100%);
+        left: calc(100%);
+        transform: rotate(180deg);
+    }
+    /* Esquina inferior derecha (rotar hacia izquierda) */
+    50% {
+        transform: rotate(180deg);
+    }
+    51% {
+        transform: rotate(270deg);
+    }
+    /* Lado inferior (izquierda) */
+    52% {
+        top: calc(100%);
+        left: calc(100%);
+        transform: rotate(270deg);
+    }
+    74% {
+        top: calc(100%);
+        left: -80px;
+        transform: rotate(270deg);
+    }
+    /* Esquina inferior izquierda (rotar hacia arriba) */
+    75% {
+        transform: rotate(260deg);
+    }
+    76% {
+        transform: rotate(360deg);
+    }
+    /* Lado izquierdo (arriba) */
+    77% {
+        top: calc(100%);
+        left: -80px;
+        transform: rotate(360deg);
+    }
+    99% {
+        top: -80px;
+        left: -80px;
+        transform: rotate(360deg);
+    }
+    /* Esquina superior izquierda (completar rotación) */
+    100% {
+         top: -80px;
+        left: -80px;
+        transform: rotate(450deg);
+    }
+}
+
+/* Estilos de los textos */
+.inicio, .fin {
+    position: absolute;
+    font-weight: bold;
+    font-size: 16px;
+    color: #050606;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    padding: 8px 15px;
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.inicio {
+    top: -45px;
+    left: 20px;
+}
+
+.fin {
+    bottom: 256px;
+    right: 401px;
+}
+
+
+
