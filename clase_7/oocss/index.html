@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>OOCSS</title>
+</head>
+<link rel="stylesheet" href="/Semana07/oocss/style.css">
+
+<body>
+    
+    <div class="container">
+        <img src="/Semana07/oocss/assets/unamad_logo-sf.png" class="shine-img" alt="Brillo animado" />
+               
+        <h1 class="title">Tarjetas OOCSS</h1>
+        <div class="grid">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">
+                        Tarjeta Básica
+                    </h3>
+                    <span class="badge badge-info">Nuevo</span>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">
+                        Esta es una tarejta básica con contenido estándar que demuestra los principios de OOCSS con
+                        separación de estructura y presentación.
+                    </p>
+                    <div class="flex-center">
+                        <button class="btn btn-primary">Acción Principal</button>
+                        <button class="btn btn-outline">Secundaria</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- tarjeta con imagen -->
+            <div class="card card-image mb-3">
+                <div class="card-image-container">
+                    <div class="card-image-placeholder">
+                        Imagen Destacada
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Tarjeta con imagen</h3>
+                    <p class="card-text">
+                        Tarjeta con imagen, perfecta para mostrar contenido visual con descripción. El componente es
+                        completamente reutilizable.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-secondary">Ver Galeria</button>
+                </div>
+            </div>
+
+            
+
+            <!-- Tarjeta destacada -->
+            <div class="card card-featured mb-3">
+                <div class="card-header">
+                    <h3 class="card-title">Tarjeta Destacada</h3>
+                    <span class="badge badge-success">Premiun</span>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">
+                        Esta tarjeta tiene un estilo especial para destacar contenido importante. Utiliza modificadores
+                        de OOCSS para cambiar apariencia.
+                    </p>
+                    <div class="text-center">
+                        <button class="btn btn-success">Explora Premiun</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="shine"></div> -->
+
+            <!-- tarjeta compacta -->
+            <div class="card card-compact">
+                <div class="card-body text-center">
+                    <h4 class="card-title">Tarjeta Compacta</h4>
+                    <p class="card-text text-small">
+                        Versión optimizada para espacios reducidos. Mantiene toda la funcionalidad en menos espacio.
+                    </p>
+                    <div class="flex-between">
+                        <span class="badge badge-warning">Compacto</span>
+                        <button class="btn btn-primary">Ir</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Botones -->
+        <div style="margin-top: 3rem; padding: 2rem; background: rgba(255,255,255,0.1); border-radius: 12px; backdrop-filter: blur(10px);">
+            <h2 style="color: white; text-align: center; margin-bottom: 1.5rem;">Sistema de Botones Reutilizables</h2>
+            <div class="flex-center" style="flex-wrap: wrap; gap: 1rem">
+                <button class="btn btn-primary">Primario</button>
+                <button class="btn btn-secondary">Secundario</button>
+                <button class="btn btn-success">Exito</button>
+                <button class="btn btn-outline">Outline</button>
+            </div>
+        </div>
+
+        <!-- Miscelaneo del Tema -->
+        <div style="margin-top: 2rem; padding: 1.5rem; background: rgba(255,255,255,0.95); border-radius: 12px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+            <h3 style="color: #2d3748; margin-bottom: 1rem">OOCSS</h3>
+            <ul style="color: #4a5568; line-height: 1.8;">
+                <li><strong>Separación de estructura y presentación</strong> Las clases .card definen estructura,
+                    mientras que .card-featured, .btn-primary apariencia</li>
+                <li><strong>Separación del contenedor y Contenido</strong>Los componentes funciona igual
+                    independientemente de su ubicación</li>
+                <li><strong>Reutilización</strong>Cada componente puede combinarse con otros modificadores</li>
+                <li><strong>Escalabilidad</strong>Fácil agregar nuevas variantes sin duplicar código</li>
+            </ul>
+        </div>
+    </div>
+    
+</body>
+
+</html>
