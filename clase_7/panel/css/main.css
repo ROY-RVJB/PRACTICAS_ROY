@@ -1,0 +1,72 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #278d63;
+}
+
+.dashboard {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "header header" "sidebar sidebar";
+  -ms-grid-columns: 200px 1fr;
+  grid-template-columns: 200px 1fr;
+  -ms-grid-rows: 60px 1fr;
+  grid-template-rows: 60px 1fr;
+  height: 100vh;
+}
+
+.header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: header;
+  background-color: #007bff;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header .sidebar {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: sidebar;
+  background-color: #278d63;
+  padding: 20px;
+}
+.header .sidebar ul {
+  list-style: none;
+}
+.header .sidebar ul li {
+  margin: 10px 0;
+}
+.header .sidebar ul li a {
+  text-decoration: none;
+  color: white;
+}
+.header .sidebar ul li a:hover {
+  text-decoration: underline;
+}
+.header .content {
+  grid-area: content;
+  padding: 20px;
+}
+.header .content .card {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

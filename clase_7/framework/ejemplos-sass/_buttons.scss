@@ -1,0 +1,8 @@
+.btn-primary{
+@include button-style($primary-color);
+
+}
+.btn-secondary{
+@include button-style($secondary-color);
+color: #2d3436;
+}
